@@ -1,20 +1,15 @@
 # AI Face Mask Detection
 
-[![Python 3.10](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+A Deep Learning model built with PyTorch to detect face masks in real-time.
 
-A high-performance deep learning solution designed to detect and classify face masks in real-time. This project uses the ResNet18 architecture fine-tuned via transfer learning to distinguish between masked and unmasked individuals with high confidence.
+### Features
+* **Real-time Detection:** Uses ResNet18 for fast and accurate classification.
+* **Transfer Learning:** Fine-tuned for high precision on mask datasets.
+* **Visualization:** Automated UI overlay showing detection confidence.
+* **Modular Pipeline:** Easy-to-follow notebooks for training and testing.
 
-## 📝 Features
-* **Automated Preprocessing**: Standardized image resizing and normalization.
-* **Transfer Learning**: Built upon the robust ResNet18 backbone.
-* **Inference Pipeline**: Clean UI overlays for clear prediction results.
-* **Modular Design**: Structured notebooks for end-to-end development.
-
-## 🚀 Getting Started
-
-### Prerequisites
-Ensure you have the necessary libraries installed:
-```bash
-pip install -r requirements.txt
+### Tech Stack
+* **Language:** Python
+* **Framework:** PyTorch
+* **Computer Vision:** OpenCV
+* **Data Analysis:** Matplotlib & NumPy
