@@ -1,4 +1,4 @@
-# AI Face Mask Detection System Model
+# Face Mask Detection System Model
 
 A structured pipeline for real-time mask classification using **PyTorch** and **ResNet18** transfer learning.
 
